@@ -1,0 +1,102 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fce7cf; /* Simit Rengi Zemin */
+    color: #4a2c22; /* Koyu Kahve Metin */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    border: 3px solid #b87333; /* Altın/Kahverengi çerçeve */
+}
+
+h1 {
+    color: #d35400; /* Turuncu-Kahve Başlık */
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#durum-kutusu {
+    background-color: #fff9e6; /* Açık sarımsı arka plan */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+#simit-sat-butonu {
+    width: 90%;
+    padding: 15px;
+    background-color: #27ae60; /* Yeşil Buton */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+#simit-sat-butonu:hover {
+    background-color: #2ecc71;
+}
+
+#yükseltmeler {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px dashed #b87333;
+}
+
+#yükseltmeler h2 {
+    color: #d35400;
+    text-align: center;
+}
+
+.upgrade-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #f39c12; /* Turuncu Buton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.upgrade-button:disabled {
+    background-color: #bdc3c7; /* Gri tonu */
+    cursor: not-allowed;
+}
+
+#mesaj-kutusu {
+    margin-top: 15px;
+    font-size: 1em;
+    font-style: italic;
+    min-height: 20px;
+    color: #c0392b; /* Hata/Mesaj rengi */
+}
+
+.reset-button {
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
